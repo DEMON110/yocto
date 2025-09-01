@@ -1,0 +1,53 @@
+{
+  "yocto_distribution": {
+    "distro": "Poky",
+    "branch": "scarthgap",
+    "revision": "9ce8f26d37c2e3e0030fd1f36f5c54209c269a05"
+  },
+  "clang": {
+    "path": "meta-clang",
+    "revision": "6691e4bc47e20b903dc3dd7684685086d2468b84",
+    "llvm_clang_version": "17.0.6"
+  },
+  "gcc": {
+    "version": "13.2.0",
+    "binutils_version": "2.41"
+  },
+  "c_library": {
+    "library": "glibc",
+    "version": "2.39",
+    "fortify_source": "-D_FORTIFY_SOURCE=2"
+  },
+  "qemu": {
+    "qemu_system_arm_version": "8.2.0",
+    "cpu_model": "cortex-a9",
+    "nic_model": "virtio-net",
+    "acceleration": "tcg"
+  },
+  "linux_kernel": {
+    "repository_branch": "linux-yocto/6.6",
+    "commit": "5e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f",
+    "config_hash": "a7b3e9c1f0d2a4b6e8c0f1a3d5e7b9c2f4a6d8e1"
+  },
+  "image_provenance": {
+    "image_name": "core-image-minimal",
+    "rootfs_type": "ext4",
+    "strip_policy": "strip",
+    "section_gc_toggle": "enabled",
+    "sha256_checksums": {
+      "image": "b8c4f0a2d6e1b3c7a9f0d2e4b6c8a0f1d3e5b7c9a2f4e6d8b0c1f3a5e7b9c2",
+      "rootfs": "c9d5a1b3e7f0c2d4a6b8e0f1c3d5a7b9e2f4a6c8d0b1f3e5a7c9b2f4e6d8a0"
+    }
+  },
+  "measurement_harness": {
+    "optimization_level": "-O2",
+    "warm_up_duration": "10s",
+    "run_counts": 5,
+    "random_seed": 123456789,
+    "clock_source": "monotonic",
+    "tcp_options": {
+      "window_size": "64K",
+      "congestion_control": "cubic"
+    }
+  }
+}
