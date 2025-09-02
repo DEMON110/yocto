@@ -51,3 +51,19 @@
     }
   }
 }
+
+{
+    "clang_flags": [
+        "-D_FORTIFY_SOURCE=2",
+        "-fstack-protector-strong",
+        "-fPIE",
+        "-fpic",
+        "-Wl,-z,relro,-z,now",
+        "-fcf-protection=full",
+        "-ftrapv"
+    ],
+    "build_version": "1.0.0",
+    "yocto_version": "Poky 2.7",
+    "compiler": "Clang",
+    "target_device": "ARM"
+}
