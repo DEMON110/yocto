@@ -1,0 +1,167 @@
+key: yocto_distribution.distro
+value: Poky
+sha256: bfa19b3d18442d3348080bc76c1c45d788d13385b4533df9eaee7ac065468039
+
+key: yocto_distribution.branch
+value: scarthgap
+sha256: a84954e8203d54b2c62208a96e2c11807cf5b0641966b18cc7f8f4eaebf272e8
+
+key: yocto_distribution.revision
+value: 9ce8f26d37c2e3e0030fd1f36f5c54209c269a05
+sha256: 2f0ac0269f914f7835a8527b0c62eacefcb158a927eb84cc606da5a340d05994
+
+key: clang.path
+value: meta-clang
+sha256: d805c936d0ac2705066a36d23b6892d3978b3388a2ba5e7b277d742dca89ba73
+
+key: clang.revision
+value: 6691e4bc47e20b903dc3dd7684685086d2468b84
+sha256: 01d3e28ddbb7fba688257847a48400a7b7a65c9d4b788396e3c68db54d74d55e
+
+key: clang.llvm_clang_version
+value: 17.0.6
+sha256: b58fd8dfa3c189ae3f92fa2db2cecbabf11ad2aa63421f127fdc850d9e0c05a9
+
+key: gcc.version
+value: 13.2.0
+sha256: fce043fcb4bc4af5977d8cd5a4ee4f1e4c59f1227d94bd53b08bc53a2271e735
+
+key: gcc.binutils_version
+value: 2.41
+sha256: 4724079503299cf1abc274182a50ac8108d1ce27aec710847e9cd5aeae8cbc1c
+
+key: c_library.library
+value: glibc
+sha256: 1b11757d33424678ba2d9d6fbd9eb6293a7bfa196dca15a29af179af778c235d
+
+key: c_library.version
+value: 2.39
+sha256: cc2504c261f94795ae0fcb9c4eced78afe10a96f12f5dfe8c4cb21b7a9115d82
+
+key: c_library.fortify_source
+value: -D_FORTIFY_SOURCE=2
+sha256: 532a75731c7ffda7829a8598d5f5090a40e913bec1bcaf8934d0a249d7dc4750
+
+key: qemu.qemu_system_arm_version
+value: 8.2.0
+sha256: 396a01fc819c08e7bf0e7d771e631d7c978f1ab771aa054652f15485b3a208d0
+
+key: qemu.cpu_model
+value: cortex-a9
+sha256: a5ad1cf3803eb7f5e0b998a39aa0a3856467b38a161d042dd00dcd3ec2ba0d77
+
+key: qemu.nic_model
+value: virtio-net
+sha256: b23e357b20437eda6eeb75f0aa868fbdabc672cd45c4bedc3cefd6d8615c3c1e
+
+key: qemu.acceleration
+value: tcg
+sha256: 6d3f692e0a1fee97a47bc4afc99adaf45f6fd85eecab9de66348099a0454c561
+
+key: linux_kernel.repository_branch
+value: linux-yocto/6.6
+sha256: 25f26d773ce35f1b1d3cee4bb065f21340900a4fe97e6b372d5f0e89a18479b1
+
+key: linux_kernel.commit
+value: 5e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f
+sha256: 7b2cc1ca85b252fa37b031e5eac53dbc6a5a27575d606f103a1d77aba5dce3f0
+
+key: linux_kernel.config_hash
+value: a7b3e9c1f0d2a4b6e8c0f1a3d5e7b9c2f4a6d8e1
+sha256: c035e48fe684ccd7af73509e0a72a2fb2626c30263286bbefcb8a2be50a91472
+
+key: image_provenance.image_name
+value: core-image-minimal
+sha256: d630b09499d35f16be7db092d04ae6e4f0cd59f0928df131fcdbce425c15e75b
+
+key: image_provenance.rootfs_type
+value: ext4
+sha256: 6ce5812ab98bf775dc5690c73950250f9e9503a8c769101cc35a666e9a767082
+
+key: image_provenance.strip_policy
+value: strip
+sha256: d60384034b77c13c28402a35b432fb2a93a138a839a8f8f4d39d0262fb44651f
+
+key: image_provenance.section_gc_toggle
+value: enabled
+sha256: fb9cf75606b4070dd6a9705810906bba28d0e2ea74ff301b999a91dbb68c7d98
+
+key: image_provenance.sha256_checksums.image
+value: b8c4f0a2d6e1b3c7a9f0d2e4b6c8a0f1d3e5b7c9a2f4e6d8b0c1f3a5e7b9c2
+sha256: 7f5ae3d3cee318aa6e461e60b11b3c5b72c57321978f8bc4928a7f17abd8cc82
+
+key: image_provenance.sha256_checksums.rootfs
+value: c9d5a1b3e7f0c2d4a6b8e0f1c3d5a7b9e2f4a6c8d0b1f3e5a7c9b2f4e6d8a0
+sha256: d65dca5f017998eebe373584f29323a74724df38477abe24e082a4a1285e5021
+
+key: measurement_harness.optimization_level
+value: -O2
+sha256: aaf968ba850b4d9affbec493fa0fe0a833e9e463e87a2cce0c8c08a13ccca4a2
+
+key: measurement_harness.warm_up_duration
+value: 10s
+sha256: 7819f63beefe24e83edd23116f7b91ec06ea33ea4501f21c62d1d09b2a84cd4d
+
+key: measurement_harness.run_counts
+value: 5
+sha256: ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d
+
+key: measurement_harness.random_seed
+value: 123456789
+sha256: 15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225
+
+key: measurement_harness.clock_source
+value: monotonic
+sha256: f458f8295a83d2b3e2bc2e91b2d5fc416275e7899959621b2fb46a15a5c7f62e
+
+key: measurement_harness.tcp_options.window_size
+value: 64K
+sha256: 380bb937c88e2a724d1e494d403c12f324495629375b5220c11190fde32c0b18
+
+key: measurement_harness.tcp_options.congestion_control
+value: cubic
+sha256: ce371d3c6bedcfcabbfe11c748778817e8020f151ccc53f2831008ac6eff9ddb
+
+key: clang_flags.0
+value: -D_FORTIFY_SOURCE=2
+sha256: 532a75731c7ffda7829a8598d5f5090a40e913bec1bcaf8934d0a249d7dc4750
+
+key: clang_flags.1
+value: -fstack-protector-strong
+sha256: 6e5810bc132a8af5ae35e1e34c5f5d0c98b7275fa1daaf2830d0014260a2c82b
+
+key: clang_flags.2
+value: -fPIE
+sha256: a20a7c3e4f3c679d1b73deed1dde9f6ed16df0ea4c9d7fa07ad07fb15f0a8ce9
+
+key: clang_flags.3
+value: -fpic
+sha256: e56208f932ddd2fd0ff1b9d0b89a11c9efe5b36ca3fe7b058b064e27febb8bed
+
+key: clang_flags.4
+value: -Wl,-z,relro,-z,now
+sha256: b2dc43e72e3db057af9566109f35c45b1ab72a542ff6020ebbd8ae8beaaf8b70
+
+key: clang_flags.5
+value: -fcf-protection=full
+sha256: b9fc9cd1dff7effa4e168253600f10a65d53b0d2d283c2baa3c0a77f320c34fa
+
+key: clang_flags.6
+value: -ftrapv
+sha256: 242840478a19230cf495fc175ed00bb15262f379f03bd2026da74db4e998d16f
+
+key: build_version
+value: 1.0.0
+sha256: 92521fc3cbd964bdc9f584a991b89fddaa5754ed1cc96d6d42445338669c1305
+
+key: yocto_version
+value: Poky 2.7
+sha256: 9818ce6d5f00726c6d6440619c2969cb25c315463838b9caefddd56c0b8e2d10
+
+key: compiler
+value: Clang
+sha256: 3324e93d3f29d4a5863cf569da101db4c309fe8e1c79b625b0feaa41dc09d52e
+
+key: target_device
+value: ARM
+sha256: 316dddc5a44e6bf789862edca92140b61a6da73425ca91fcd369a30979b9c0a1
